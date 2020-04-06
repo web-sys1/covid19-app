@@ -4,6 +4,7 @@
     "description": "Dashboard App displaying numbers by country about COVID-19",
     "scripts": {
         "server-start": "webpack-dev-server --open",
+        "build": "[my-framework] build --output public",
         "build-all": "node ./node_modules/neo.mjs/buildScripts/buildAll.js",
         "generate-docs-json": "node ./node_modules/neo.mjs/buildScripts/docs/jsdocx.js",
         "dev-build-all-my-apps": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/development/webpack.config.myapps.js --env.build_all=true",
